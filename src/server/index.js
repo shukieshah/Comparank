@@ -3,7 +3,7 @@ const os = require('os');
 
 const app = express();
 const yelp = require('yelp-fusion');
-const client = yelp.client('api key');
+const client = yelp.client('');
 
 app.use(express.static('dist'));
 
